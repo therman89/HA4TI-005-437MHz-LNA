@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "LNA-PSA4-rescue")(type "KiCad")(uri "${KIPRJMOD}/LNA-PSA4-rescue.kicad_sym")(options "")(descr ""))
+)

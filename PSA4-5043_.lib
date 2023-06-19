@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PSA4-5043+
+#
+DEF PSA4-5043+ U 0 40 N Y 1 L N
+F0 "U" 0 0 50 H I L BNN
+F1 "PSA4-5043+" 0 0 50 H I L BNN
+F2 "PSA4-5043+" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 400 -300 0 N
+P 2 0 0 10 -300 0 -300 -400 N
+P 2 0 0 10 -300 -400 400 0 N
+P 2 0 0 10 400 0 -300 400 N
+P 2 0 0 10 -300 0 -600 0 N
+P 2 0 0 10 400 0 700 0 N
+P 2 0 0 10 100 -200 100 -500 N
+X RF-IN 3 -650 0 200 R 40 40 0 0 B 
+X RF-OUT 1 750 0 200 L 40 40 0 0 B 
+X GND 2 100 -500 200 U 40 40 0 0 B 
+X GND 4 100 -500 200 U 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library
